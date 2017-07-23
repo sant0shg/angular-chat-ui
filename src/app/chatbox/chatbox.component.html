@@ -1,0 +1,13 @@
+<div class="chatbox">
+<div class="messages">
+
+<div *ngFor="let message of messages" [class.right]="message.self">
+  {{message.text}}
+</div>
+
+</div>
+<div class="input-container">
+<input type="text" class="inputtext" [(ngModel)]="replyMessage">
+<button class="replyBtn" (click)="reply()">Send</button>
+</div>
+</div>

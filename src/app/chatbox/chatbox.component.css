@@ -1,0 +1,27 @@
+.right{
+    text-align: right;
+}
+.chatbox{
+    width:400px;
+    height:500px;
+    border: 1px solid #ccc;
+    padding: 16px;
+}
+.messages{
+    height:470px;
+    overflow: auto;
+}
+.input-container{
+    height: 30px;
+    margin-left: -16px;
+    margin-right: -16px;
+    vertical-align: middle;
+    padding-top: 10px;
+    border-top:1px solid #ccc;
+}
+.input-container .inputtext{
+    width:calc(100% - 100px);
+}
+.input-container button{
+    width: 90px;
+}
